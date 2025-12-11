@@ -4,4 +4,4 @@ hours_worked = float(input("Enter Employee Weekly hours work: "))
 
 total_wage = hourly_wage * hours_worked
 
-print(f"{employee_name} earned ${total_wage} this week.")
+print(f"{employee_name} earned ${total_wage:.2f} this week.")
